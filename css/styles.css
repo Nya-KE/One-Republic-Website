@@ -1,0 +1,69 @@
+body {
+  font-family: monospace;
+  position: absolute;
+  background-color: grey
+}
+.header-image img {
+  width: 100%;
+}
+.sidebar{
+  width: 30%;
+  min-height: inherit;
+  max-height: inherit;
+  background-color: cyan;
+  float: left;
+
+}
+.column{
+  width: 70%;
+  max-height: 600px;
+  min-height: 600px
+  background-color: grey;
+  float: right;
+}
+.column #about-row {
+  background-color: black;
+  color: white;
+}
+#band-row {
+  background-color: grey;
+  margin: 20px
+}
+.band-member {
+  width: 20%;
+  float: right;
+}
+.band-member img{
+  width: 90%;
+  margin: 10px;
+}
+
+.album {
+  width: 33.33%;
+  float: left;
+}
+
+.album img {
+  width: 80%;
+  margin: 20px;
+  float: none;
+}
+
+.column #about-albumrow {
+  background-color: black;
+  color: white;
+  clear: both;
+}
+
+#footer-image {
+  position:relative;
+
+}
+hr.footerline {
+  weight:100px;
+}
+
+footer  #footer {
+  color: white;
+  text-align: center;
+}
